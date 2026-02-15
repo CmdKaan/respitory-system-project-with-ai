@@ -40,5 +40,4 @@ class Proje:
         plt.show()
 ornek_veri = np.random.uniform(low=-0.5, high=0.5, size=(16000 * 5)) 
 ses_analiz = Proje(ornek_veri,TSR=16000)
-sonuc = ses_analiz.mfcc()
 ses_analiz.grafigi_ciz()
